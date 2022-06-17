@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* NavBar */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    box-shadow: 0px 0px 15px 0px rgba(0, 70, 15, 0.936);
+}
+    
+.logo{
+    padding: 5px;
+    letter-spacing: 3px;
+    font-family: 'Acme', sans-serif;
+}
+   
+
+/* Main Section */
+
+.main-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Acme', sans-serif;
+}
+    
+.current__weather__card {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px rgba(82, 80, 67, 0.936);
+    gap: 10px;
+    color:white;
+}
+
+.zindex{
+    z-index: 2;
+
+}
+
+.name {
+    margin: 0px 30px;
+}
+
+.date{
+    grid-column: 2/3;
+}
+
+.temperature__icon {
+    display: flex;
+    align-items: center;
+  
+}
+
+.temperature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temperature_number {
+    font-size: 40px;
+}
+
+#temperature_degree {
+   padding-left: 5px;
+    margin-bottom: 12px;
+    font-size: 25px;
+}
+  
+.feels {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#feels__text {
+    padding-right: 5px;
+    padding-left:10px;
+}
+
+.feelslike {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.summary {
+    margin: 0px 10px 10px 30px;
+}
+
+.clouds{
+    padding-left: 10px;
+    margin-bottom: 10px ;
+}
+    
+.temperature__details__card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 25px;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px rgba(82, 80, 67, 0.936);
+    gap: 20px;
+}
+
+.details__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.deatails_card_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-2_ofdatails {
+    margin-top: 5px;
+}
+
+.hpa {
+    padding-left: 5px;
+}
+
+
+   
+
+   
+
+ 
+    
+   
+   
+
+
+
+ 
+    
+ 
+
+
+
+
+
+  
+
+
+ 
+
+
+
+
+
+  
+
+
+   
+
+
+
+
+
+   
+
+  
+   
+
+   
+   
+    
+
+
+
+
+
+

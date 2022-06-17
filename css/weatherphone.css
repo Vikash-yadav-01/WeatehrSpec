@@ -1,0 +1,83 @@
+
+
+.main-body{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+   
+.current__weather__card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px;
+    margin-top: 100px;
+}
+    
+.name {
+    grid-row: 1/2;
+    padding-left: 10px;
+    margin: 0px;
+    align-items: flex-start;
+  
+}
+
+.date{
+    grid-column: 3/4;
+}
+
+.temperature__icon {
+    grid-column: 1/4;
+    justify-content: space-evenly;
+   
+}
+
+.feels {
+    grid-row: 3/4;
+    
+}
+   
+.summary {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    margin: 0px;
+    padding-left: 10px;
+    align-self: center;
+}
+    
+.clouds {
+    grid-row: 3/4;
+    grid-column: 3/4;
+    margin: 0px;
+    padding-left: 10px;
+    align-self: center;
+}
+
+.temperature__details__card {
+    margin-top: 25px;
+    padding: 20px;
+    
+
+}
+
+
+
+
+  
+
+  
+
+
+
+
+
+   
+
+    
+  
+
+
+
+
+
+
