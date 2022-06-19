@@ -132,23 +132,23 @@ window.addEventListener('load', () => {
                 const background_color = function () {
                     if (main.temp >= 45) {
                         main_body.style.background = "linear-gradient(0deg, #fcff9e 0%, #c67700 100%)";
-                        current__weather__card.style.background = "url(/image/bg.jpg) no-repeat center/cover";
-                        temperature__details__card.style.background = "url(/image/bg2.jpg) no-repeat center/cover ";
+                        current__weather__card.style.background = "url(image/bg.jpg) no-repeat center/cover";
+                        temperature__details__card.style.background = "url(image/bg2.jpg) no-repeat center/cover ";
 
                     } else if (main.temp >= 35) {
                         main_body.style.background = "linear-gradient(0deg, #3F2B96 0%, #A8C0FF 100%)";
-                        current__weather__card.style.background = "url(/image/blue2.jpg) no-repeat center/cover";
-                        temperature__details__card.style.background = "url(/image/bg.jpg) no-repeat center/cover ";
+                        current__weather__card.style.background = "url(image/blue2.jpg) no-repeat center/cover";
+                        temperature__details__card.style.background = "url(image/bg.jpg) no-repeat center/cover ";
 
                     } else if (main.temp >= 25) {
                         main_body.style.background = "linear-gradient(0deg, #00ff88 0%, #0700b8 100%)";
-                        current__weather__card.style.background = "url(/image/yellow.jpg) no-repeat center/cover";
-                        temperature__details__card.style.background = " url(/image/yellow2.jpg) no-repeat center/cover";
+                        current__weather__card.style.background = "url(image/yellow.jpg) no-repeat center/cover";
+                        temperature__details__card.style.background = " url(image/yellow2.jpg) no-repeat center/cover";
 
                     } else {
                         main_body.style.background = "linear-gradient(0deg, #00d2ff 0%, #3a47d5 100%)";
-                        current__weather__card.style.background = "url(/image/blue.jpg) no-repeat center/cover";
-                        temperature__details__card.style.background = " url(/image/blue2.jpg) no-repeat center/cover";
+                        current__weather__card.style.background = "url(image/blue.jpg) no-repeat center/cover";
+                        temperature__details__card.style.background = " url(image/blue2.jpg) no-repeat center/cover";
                     }
                 }
                 background_color();
